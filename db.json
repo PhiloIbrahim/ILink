@@ -1,0 +1,505 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "password": "Password123!",
+      "phone": "+1234567890",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "preferences": {
+        "notifications": true,
+        "theme": "light",
+        "newsletter": true
+      },
+      "createdAt": "2024-01-15T09:30:00Z",
+      "lastLogin": "2024-12-15T14:22:00Z",
+      "isActive": true,
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane.smith@example.com",
+      "password": "SecurePass456!",
+      "phone": "+1987654321",
+      "address": {
+        "street": "456 Oak Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "90210",
+        "country": "USA"
+      },
+      "preferences": {
+        "notifications": false,
+        "theme": "dark",
+        "newsletter": false
+      },
+      "createdAt": "2024-02-20T11:45:00Z",
+      "lastLogin": "2024-12-14T16:30:00Z",
+      "isActive": true,
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "iTag Classic",
+      "price": 29.99,
+      "originalPrice": 39.99,
+      "category": "Classic Series",
+      "description": "Essential tracking features with reliable connectivity. Perfect for everyday items like keys, wallets, and bags.",
+      "features": [
+        "Bluetooth 5.0 connectivity",
+        "30-meter range",
+        "6-month battery life",
+        "Water-resistant IPX4",
+        "Find My Phone feature"
+      ],
+      "specifications": {
+        "dimensions": "31.9 x 31.9 x 8.0 mm",
+        "weight": "6.5g",
+        "battery": "CR2032 replaceable",
+        "connectivity": "Bluetooth 5.0",
+        "compatibility": "iOS 13+, Android 8+"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?w=400&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?w=400&h=400&fit=crop"
+      ],
+      "stock": 150,
+      "rating": 4.3,
+      "reviews": 127,
+      "tags": ["bluetooth", "tracker", "classic", "affordable"],
+      "isAvailable": true,
+      "isFeatured": false,
+      "discount": 25
+    },
+    {
+      "id": 2,
+      "name": "iTag Pro",
+      "price": 49.99,
+      "originalPrice": 59.99,
+      "category": "Pro Series",
+      "description": "Advanced tracking with enhanced range and precision. Professional-grade tracking for important items.",
+      "features": [
+        "Bluetooth 5.2 connectivity",
+        "60-meter extended range",
+        "12-month battery life",
+        "Water-resistant IPX6",
+        "GPS integration",
+        "Crowd finding network"
+      ],
+      "specifications": {
+        "dimensions": "35.0 x 35.0 x 7.5 mm",
+        "weight": "8.2g",
+        "battery": "CR2450 replaceable",
+        "connectivity": "Bluetooth 5.2 + GPS",
+        "compatibility": "iOS 14+, Android 9+"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=400&fit=crop"
+      ],
+      "stock": 89,
+      "rating": 4.7,
+      "reviews": 203,
+      "tags": ["bluetooth", "tracker", "pro", "gps", "premium"],
+      "isAvailable": true,
+      "isFeatured": true,
+      "discount": 17
+    },
+    {
+      "id": 3,
+      "name": "iTag Mini",
+      "price": 19.99,
+      "originalPrice": 24.99,
+      "category": "Mini Series",
+      "description": "Ultra-compact design for keys and small items. The smallest tracker in our lineup without compromising functionality.",
+      "features": [
+        "Bluetooth 5.0 connectivity",
+        "25-meter range",
+        "4-month battery life",
+        "Water-resistant IPX4",
+        "Ultra-compact design"
+      ],
+      "specifications": {
+        "dimensions": "25.0 x 25.0 x 6.0 mm",
+        "weight": "4.1g",
+        "battery": "CR2025 replaceable",
+        "connectivity": "Bluetooth 5.0",
+        "compatibility": "iOS 12+, Android 7+"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=400&fit=crop"
+      ],
+      "stock": 220,
+      "rating": 4.1,
+      "reviews": 89,
+      "tags": ["bluetooth", "tracker", "mini", "compact", "affordable"],
+      "isAvailable": true,
+      "isFeatured": false,
+      "discount": 20
+    },
+    {
+      "id": 4,
+      "name": "iTag Pro Max",
+      "price": 79.99,
+      "originalPrice": 99.99,
+      "category": "Pro Series",
+      "description": "Premium tracking with longest range and solar charging. The ultimate tracking solution for valuable items.",
+      "features": [
+        "Bluetooth 5.3 connectivity",
+        "100-meter maximum range",
+        "Solar charging + 18-month battery",
+        "Water-resistant IPX7",
+        "GPS + UWB precision finding",
+        "Global crowd finding network",
+        "Anti-theft alerts"
+      ],
+      "specifications": {
+        "dimensions": "40.0 x 40.0 x 8.5 mm",
+        "weight": "12.0g",
+        "battery": "Solar + CR2477 backup",
+        "connectivity": "Bluetooth 5.3 + GPS + UWB",
+        "compatibility": "iOS 15+, Android 10+"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=400&h=400&fit=crop"
+      ],
+      "stock": 45,
+      "rating": 4.9,
+      "reviews": 156,
+      "tags": ["bluetooth", "tracker", "premium", "solar", "uwb", "gps"],
+      "isAvailable": true,
+      "isFeatured": true,
+      "discount": 20
+    },
+    {
+      "id": 5,
+      "name": "iTag Wallet",
+      "price": 34.99,
+      "originalPrice": 44.99,
+      "category": "Specialty Series",
+      "description": "Card-thin tracker designed specifically for wallets and passports. Invisible protection for your valuables.",
+      "features": [
+        "Ultra-thin card design",
+        "Bluetooth 5.1 connectivity",
+        "45-meter range",
+        "8-month battery life",
+        "Water-resistant IPX5"
+      ],
+      "specifications": {
+        "dimensions": "85.0 x 54.0 x 2.5 mm",
+        "weight": "5.5g",
+        "battery": "Custom thin cell",
+        "connectivity": "Bluetooth 5.1",
+        "compatibility": "iOS 13+, Android 8+"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=400&h=400&fit=crop"
+      ],
+      "stock": 112,
+      "rating": 4.4,
+      "reviews": 73,
+      "tags": ["bluetooth", "tracker", "wallet", "thin", "specialty"],
+      "isAvailable": true,
+      "isFeatured": false,
+      "discount": 22
+    },
+    {
+      "id": 6,
+      "name": "iTag Pet",
+      "price": 39.99,
+      "originalPrice": 49.99,
+      "category": "Pet Series",
+      "description": "Specialized tracker for pets with enhanced durability and comfort. Keep your furry friends safe and sound.",
+      "features": [
+        "Pet-safe materials",
+        "Bluetooth 5.0 + GPS",
+        "50-meter range",
+        "10-month battery life",
+        "Waterproof IPX8",
+        "Activity monitoring"
+      ],
+      "specifications": {
+        "dimensions": "32.0 x 32.0 x 12.0 mm",
+        "weight": "9.8g",
+        "battery": "CR2477 replaceable",
+        "connectivity": "Bluetooth 5.0 + GPS",
+        "compatibility": "iOS 13+, Android 8+"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
+      ],
+      "stock": 78,
+      "rating": 4.6,
+      "reviews": 94,
+      "tags": ["bluetooth", "tracker", "pet", "gps", "waterproof"],
+      "isAvailable": true,
+      "isFeatured": true,
+      "discount": 20
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Classic Series",
+      "description": "Essential tracking features for everyday use",
+      "image": "https://images.unsplash.com/photo-1593642532400-2682810df593?w=300&h=200&fit=crop"
+    },
+    {
+      "id": 2,
+      "name": "Pro Series",
+      "description": "Advanced tracking with professional features",
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop"
+    },
+    {
+      "id": 3,
+      "name": "Mini Series",
+      "description": "Ultra-compact design for small items",
+      "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=300&h=200&fit=crop"
+    },
+    {
+      "id": 4,
+      "name": "Specialty Series",
+      "description": "Specialized trackers for specific use cases",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=300&h=200&fit=crop"
+    },
+    {
+      "id": 5,
+      "name": "Pet Series",
+      "description": "Pet-safe tracking solutions",
+      "image": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=300&h=200&fit=crop"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1001,
+      "userId": 1,
+      "orderNumber": "ORD-2024-001001",
+      "status": "delivered",
+      "orderDate": "2024-11-15T10:30:00Z",
+      "deliveryDate": "2024-11-18T14:20:00Z",
+      "items": [
+        {
+          "productId": 2,
+          "name": "iTag Pro",
+          "price": 49.99,
+          "quantity": 2,
+          "total": 99.98
+        },
+        {
+          "productId": 3,
+          "name": "iTag Mini",
+          "price": 19.99,
+          "quantity": 1,
+          "total": 19.99
+        }
+      ],
+      "subtotal": 119.97,
+      "shipping": 5.99,
+      "tax": 10.08,
+      "total": 136.04,
+      "shippingAddress": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john.doe@example.com",
+        "phone": "+1234567890",
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "paymentMethod": {
+        "type": "credit_card",
+        "last4": "4242",
+        "brand": "visa"
+      },
+      "tracking": {
+        "carrier": "FedEx",
+        "trackingNumber": "1234567890123456",
+        "estimatedDelivery": "2024-11-18T18:00:00Z"
+      }
+    }
+  ],
+  "cart_sessions": [
+    {
+      "id": "session_123",
+      "userId": 1,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 2,
+          "addedAt": "2024-12-15T14:30:00Z"
+        }
+      ],
+      "createdAt": "2024-12-15T14:30:00Z",
+      "updatedAt": "2024-12-15T14:30:00Z",
+      "expiresAt": "2024-12-22T14:30:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 2,
+      "userId": 1,
+      "rating": 5,
+      "title": "Excellent tracking device!",
+      "comment": "Works perfectly for tracking my keys. Great range and battery life.",
+      "verified": true,
+      "helpful": 12,
+      "createdAt": "2024-11-20T09:15:00Z"
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "userId": 2,
+      "rating": 4,
+      "title": "Good value for money",
+      "comment": "Does what it promises. Could be a bit smaller but overall satisfied.",
+      "verified": true,
+      "helpful": 8,
+      "createdAt": "2024-11-18T16:45:00Z"
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productIds": [4, 6],
+      "createdAt": "2024-12-01T10:00:00Z",
+      "updatedAt": "2024-12-10T15:30:00Z"
+    }
+  ],
+  "support_tickets": [
+    {
+      "id": 1,
+      "userId": 1,
+      "subject": "Battery replacement question",
+      "status": "resolved",
+      "priority": "medium",
+      "category": "product_support",
+      "description": "How do I replace the battery in my iTag Pro?",
+      "createdAt": "2024-12-01T14:20:00Z",
+      "resolvedAt": "2024-12-02T09:30:00Z",
+      "messages": [
+        {
+          "id": 1,
+          "from": "user",
+          "message": "How do I replace the battery in my iTag Pro?",
+          "timestamp": "2024-12-01T14:20:00Z"
+        },
+        {
+          "id": 2,
+          "from": "support",
+          "message": "To replace the battery, gently twist the back cover counterclockwise and replace with a new CR2450 battery.",
+          "timestamp": "2024-12-02T09:30:00Z"
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "userId": 1,
+      "type": "order_update",
+      "title": "Order Delivered",
+      "message": "Your order #ORD-2024-001001 has been delivered!",
+      "read": false,
+      "createdAt": "2024-11-18T14:20:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "type": "product_update",
+      "title": "New Product Launch",
+      "message": "Check out our new iTag Pro Max with solar charging!",
+      "read": true,
+      "createdAt": "2024-11-10T10:00:00Z"
+    }
+  ],
+  "shipping_options": [
+    {
+      "id": "standard",
+      "name": "Standard Shipping",
+      "description": "5-7 business days",
+      "price": 5.99,
+      "estimatedDays": 7
+    },
+    {
+      "id": "express",
+      "name": "Express Shipping",
+      "description": "2-3 business days",
+      "price": 12.99,
+      "estimatedDays": 3
+    },
+    {
+      "id": "overnight",
+      "name": "Overnight Shipping",
+      "description": "Next business day",
+      "price": 24.99,
+      "estimatedDays": 1
+    }
+  ],
+  "coupons": [
+    {
+      "id": 1,
+      "code": "WELCOME20",
+      "description": "20% off for new customers",
+      "discountType": "percentage",
+      "discountValue": 20,
+      "minAmount": 25,
+      "maxDiscount": 50,
+      "validFrom": "2024-01-01T00:00:00Z",
+      "validUntil": "2024-12-31T23:59:59Z",
+      "usageLimit": 1000,
+      "usedCount": 245,
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "code": "FREESHIP",
+      "description": "Free shipping on orders over $50",
+      "discountType": "shipping",
+      "discountValue": 0,
+      "minAmount": 50,
+      "validFrom": "2024-01-01T00:00:00Z",
+      "validUntil": "2024-12-31T23:59:59Z",
+      "usageLimit": null,
+      "usedCount": 1823,
+      "isActive": true
+    }
+  ],
+  "app_settings": {
+    "maintenance_mode": false,
+    "api_version": "1.0.0",
+    "features": {
+      "user_registration": true,
+      "guest_checkout": true,
+      "reviews": true,
+      "wishlist": true,
+      "notifications": true,
+      "coupons": true
+    },
+    "limits": {
+      "max_cart_items": 50,
+      "max_wishlist_items": 100,
+      "password_min_length": 8,
+      "session_timeout": 1800
+    }
+  }
+}
